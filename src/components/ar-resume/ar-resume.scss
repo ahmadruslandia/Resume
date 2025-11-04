@@ -43,7 +43,7 @@
         h1 {
           font-size: 56px;
           margin: 0;
-          font-weight: 700;
+          font-weight: 500;
           color: var(--accent-color);
           text-align: center;
           font-family: Wotfard, sans-serif;
@@ -93,8 +93,8 @@
             &.website {
               grid-area: website;
             }
-            &.languages {
-              grid-area: languages;
+            &.handphones {
+              grid-area: handphones;
             }
           }
         }
@@ -253,7 +253,7 @@
       grid-template-areas:
         "email email"
         "website website"
-        "location languages";
+        "location handphones";
 
       li {
         &.email{
@@ -273,7 +273,7 @@
 
         grid-template-areas:
           "location email"
-          "languages website";
+          "website handphone";
 
           li {
             &.email{
@@ -341,7 +341,7 @@
         &.name-and-contact ul {
           grid-template-areas:
           "location email"
-          "languages website";
+          "handphones website";
         }
       }
 

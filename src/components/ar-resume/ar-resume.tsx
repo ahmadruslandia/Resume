@@ -29,33 +29,29 @@ export class Arresume {
           )}
         <section class="name-and-contact">
           <div>
-            <h1>Your Name</h1>
+            <h1>Ahmad Ruslandia Papua</h1>
           </div>
           <ul>
             <li class="location">
-              <svg-icon name="location"></svg-icon>
-              <span>Location</span>
+              <span>Mimika, Papua</span>
             </li>
             <li class="email">
-              <svg-icon name="email"></svg-icon>
-              <a href="mailto:ruslandiaamin@gmail.com">youremail@example.com</a>
-            </li>
-            <li class="languages">
-              <svg-icon name="languages"></svg-icon>
-              <span>Language</span>
+              <a href="mailto:ruslandiaamin@gmail.com">ruslandiaamin@gmail.com</a>
             </li>
             <li class="website">
-              <svg-icon name="website"></svg-icon>
-              <a href="https://www.example.com/" target="_blank">
-              www.example.com
+              <a href="https://linktr.ee/ahmadruslandia" target="_blank">
+              linktr.ee/ahmadruslandia
               </a>
+            </li>
+            <li class="handphone">
+              <span>+628 12 4071 3388</span>
             </li>
           </ul>
         </section>
         <section class="photo">
           <img
             class="avatar"
-            src="https://res.cloudinary.com/ddam8j6bz/image/upload/v1719162647/gcsxlpk5zpq2rmesin60.jpg"
+            src="https://media.licdn.com/dms/image/v2/D5603AQExRi-7LlEkZw/profile-displayphoto-shrink_800_800/B56Zf3XYV.HcAg-/0/1752201792571?e=1763596800&v=beta&t=icuo96c2xKcXvzx7saLe5t5T36v7P3D1TG8ItvaeNxs"
           />
         </section>
         <section class="about">
@@ -131,7 +127,6 @@ export class Arresume {
           <p class="section-title">Skills</p>
           <ul>
             <li>
-              Web Development
               <div class="tags-container">
                 <span class="tag">React JS</span>
                 <span class="tag">Next JS</span>
